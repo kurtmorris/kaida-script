@@ -1,0 +1,16 @@
+plugins {
+    id "org.jetbrains.kotlin.jvm" version "1.9.23"
+}
+
+group = 'io.kaida'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation("org.jetbrains.kotlin:kotlin-scripting-common:1.9.23")
+    implementation("org.jetbrains.kotlin:kotlin-scripting-jvm:1.9.23")
+    implementation("org.jetbrains.kotlin:kotlin-scripting-jvm:1.9.23")
+}
